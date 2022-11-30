@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÉCNICAS DE CONTEO Y PFC</title>
+    <link rel="stylesheet" href="u1.css">
+</head>
+<body>
+    <div id="cabecera">
+        <h1><span>1. TÉCNICAS DE CONTEO Y PFC</span></h1>
+    </div>
+    <hr color="white">
+    <div class="mu1">
+        <h2>1.1 Principio aditivo multiplicativo</h2>
+        <div class="sub">
+            <h3>Principio multiplicativo</h3>
+            <p>Es la técnica más simple para
+                determinar el numero de formas o
+                maneras diferentes como se puede
+                disponer una serie de objetos.
+            </p>
+                <div class="sub">
+                    <h3>Fórmula:</h3>
+                    <img src="imagenes/f1.png">
+                    <h4>Variables:</h4>
+                    <p>m = número de formas.</p>
+                </div>
+            <h3>Principio aditivo</h3>
+            <p>
+                El principio aditivo suma las ocasiones en que determinado evento
+                ocurre dentro de un espacio muestral, mientras que el espacio
+                multiplicativo multiplica las opciones de un tipo de suceso por las
+                opciones de otro y suma sus resultados.
+            </p>
+                <div class="sub">
+                    <h3>Fórmula:</h3>
+                    <img src="imagenes/f2.0.png">
+                    <h4>Variables</h4>
+                    <p>n = Número de formas distintas.</p>
+                </div>    
+        </div>
+        <h2>1.2 Permutaciones</h2>
+        <div class="sub">
+            <h3>Permutaciones ordinarias</h3>
+            <p>Denominamos permutaciones ordinarias o sin repetición de n elementos, a cada uno de los distintos grupos que pueden formarse de manera que: en cada grupo entran todos los n elementos. Un grupo se diferencia de otro únicamente en el orden de colocación de los elementos. </p>
+            <div class="sub">
+                <h3>Fórmula:</h3>
+                <p>Pn = n!</p>
+                <p>Pn = n(n - 1)(n - 2)(n - 3)...(3)(2)(1)</p>
+                <h4>Variables:</h4>
+                <p>n = Núemro de formas distintas</p>
+            </div>
+            <h3>Permutaciones con repetición</h3>
+            <p>Denominamos permutaciones con repetición de n elementos en los que uno de ellos se repite a veces, otro b veces y así hasta el último que se repite k veces (a + b + ... + k = n) para formar todas las ordenaciones posibles. se considera dos ordenaciones distintas si difieren en el orden de colocación de algún elemento.</p>
+            <div class="sub2">
+                <h3>Fórmula:</h3>
+                <img src="imagenes/f3.png">
+                <h4>Variable:</h4>
+                <p>n = Númweo de variables.</p>
+                <p>n! = El factorial de un número enteroo positico se define como el producto de todos los números naturales anteriores a 0 o iguales a el.</p>
+            </div>
+            <h3>Permutaciones circulares</h3>
+            <p>Se utilizan cuando los elementos se han de ordenar "encírculo"
+                , (por ejemplo, loscomensalesenuna mesa), de modo que el primer elemento
+                que "se sitúe" en la muestra determina elp rincipio y el final de muestra.
+            </p>
+            <div class="sub">
+                <h3>Fórmula:</h3>
+                <p>PCn = (n - 1)!</p>
+                <h4>Variables:</h4>
+                <p>n = Número de elementos.</p>
+            </div>
+        </div>
+        <h2>1.3 Variaciones</h2>
+        <div class="sub">
+            <h3>Variaciones ordinarias</h3>
+            <p>Se llaman variaciones ordinarias o sin repetición de n elementos, tomados de r en r, a los distintos grupos que se puedan formar con los n elementos, de tal forma en que cada grupo entren r elementos distintos, y que en grupo se diferencie de los demas en algunos de sus elementos o bien en su orden de colocación, es decir, SI IMPORTA EL ORDEN.</p>
+            <div class="sub3">
+                <h3>Fórmula:</h3>
+                <img src="imagenes/f4.png">
+                <h4>Variables:</h4>
+                <p>n = Número de elementos.</p>
+            </div>
+            <h3>Variaciones con repetición</h3>
+            <p>Se llaman variaciones con repetición de n elementos, tomados de r en r, a los distintos grupos que se pueden formar con los n elementos de tal manera que en cada grupo entren r elementos iguales o distintos y que un grupo se diferencie de los demas de algún elemento, o bien en su orden de colocación, es decir, SI IMPORTA EL ORDEN.</p>
+            <div class="sub4">
+                <h3>Fórmula:</h3>
+                <img src="imagenes/f5.png">
+                <h4>Variables:</h4>
+                <p>n^r = Multiplicación de números repetidos.</p>
+            </div>
+        </div>
+        <h2>1.4 Combinaciones</h2>
+        <div class="sub">
+            <h3>Combinaciones ordinarias</h3>
+            <p>Se llaman combinaciones ordinarias o sin repetición de n elementos, tomados de r en r, a los diferentes conjuntos de r elementosdistintos, esto es, un conjunto se diferencie de los demás en al menos un elemento y NO IMPORTA EL ORDEN DE COLOCACIÓN O SELECCIÓN.</p>
+            <div class="sub3">
+                <h3>Fórmula:</h3>
+                <img src="imagenes/F6.png">
+            </div>
+            <h3>Combinaciones con repetición</h3>
+            <p>Se llaman combinaciones con repetición de n elementos, tomados de r en r, se denota CRn,r a las diferentes agrupaciones de r elementos, esto es, un conjunto se diferencie de los demás en al menos un elemento y NO IMPORTA EL ORDEN DE COLOCACIÓN O SELECCIÓN.</p>
+            <div class="sub3">
+                <h3>Fórmula</h3>
+                <img src="imagenes/f7.png">
+            </div>
+        </div>
+        <h2>1.5 Principio del palomar</h2>
+        <div class="sub">
+            <h3>Principio del palomar generalizado</h3>
+            <p>Si distribuimos km+n palomas en m nidos, y n => 1, entonces algún nido tiene al menos k + 1 palomas.</p>
+            <div class="sub">
+                <h3>Fórmula:</h3>
+                <p>km + n</p>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEORIA DE CONJUNTOS</title>
+    <link rel="stylesheet" href="u2.css">
+</head>
+<body>
+    <div id="cabecera">
+        <h1><span>2. TEORIA DE CONJUNTOS</span></h1>
+    </div>
+    <hr color="white">
+    <div class="mu1">
+        <h2>2.1 Conjuntos y subconjuntos</h2>
+        <div class="sub">
+            <h3>Conjuntos</h3>
+            <p>El concepto de conjunto es fundamental en todas las
+                ramas de la matemática. Intuitivamente, un conjunto es una
+                lista, colección o clase de objetos bien definidos, objetos
+                que pueden ser: número, personas, letras, ríos, etc. Estos
+                objetos se llaman elementos o miembros del conjunto.
+            </p>
+                <div class="sub">
+                    <h3>Fórmula:</h3>
+                    <p>𝑨, 𝑩,𝑿, 𝒀, ….</p>
+                    <p>𝐴 = {1,2,3,4}</p>
+                    <h4>Ejemplo de conjuntos:</h4>
+                    <p>N: conjunto de los números naturales.</p>
+                    <p>Z: conjunto de los números enteros.</p>
+                    <p>Q: conjunto de los números racionales.</p>
+                    <p>R: conjunto de los números reales.</p>
+                    <p>C: conjunto de los números complejos.</p>
+                </div>
+            <h3>Subconjuntos</h3>
+            <p>Si todo elemento de conjunto A es tambén elemento de un conjunto B, entonces se dice que A es un subconjunto de B. Más claro: A es sub conjunto de B si x ∈ B.</p>
+                <div class="sub">
+                    <h3>Fórmula:</h3>
+                    <p>A ⊂ B </p>
+                </div>    
+        </div>
+        <h2>2.2 Operación de conjuntos y diagrama de Venn </h2>
+        <div class="sub">
+            <h3>Unión de conjuntos</h3>
+            <p>Se denomina unión de dos conjuntos al conjunto formado por los elementos pertenecientes al menos a uno de los conjuntos. Se escribe A U B.</p>
+            <div class="sub">
+                <h3>El simbolo de unión es: ∪</h3>
+                <p>La unión del conjunto A y el conjunto B, se representa como:</p>
+                <h4>A ∪ B</h4>
+                <img src="imagenes/f9.png">
+            </div>
+            <h3>Intersección de conjuntos</h3>
+            <p>Se denomina intersección de conjuntos al conjunto formado por los elementos comunes pertenecientes a ambios conjuntos. Se escribe A ∩ B </p>
+            <div class="sub">
+                <h3>El símbolo de la intersección es: ∩</h3>
+                <p>La intersección del conjunto A y el conjunto B, se representa como:</p>
+                <h4>A ∩ B</h4>
+                <img src="imagenes/f10.png">
+            </div>
+            <h3>Complementario (o contrario) de un conjunto</h3>
+            <p>Partiendo de un conjunto U (que se suele llamar universo) y de uno de sus subconjuntos A, llamaremos complementario de A al conjunto formado por todos los elemento de U que no pertenecen a A.</p>
+            <div class="sub">
+                <h3>El símbolo de complemento es: A'</h3>
+                <p>Se representa:</p>
+                <h4>A ∪ A' = U    y   A ∩ A' = ∅</h4>
+                <p>n = Número de elementos.</p>
+                <img src="imagenes/f11.png">
+            </div>
+            <h3>Diferencia de conjuntos</h3>
+            <p>Se denomina diferencia de dos conjuntos al conjunto formado por los elementos del primer conjunto que no pertenezcan al segundo conjunto.</p>
+            <p>Coincide con la intersección del primero con el complementario del segundo A ∩ B.</p>
+            <div class="sub">                
+                <h3>El símbolo de diferencia es: -</h3>
+                <p>La diferencia del conjunto A y el conjunto B,  se representa como:</p>
+                <h4>A - B</h4>
+                <img src="imagenes/f12.png">
+                <p>La diferencia del conjunto B y el conjunto A, se representa como:</p>
+                <h4>B - B</h4>
+                <img src="imagenes/f13.png">
+            </div>
+        </div>
+        <h2>2.3 Leyes del Algebra de conjuntos</h2>
+        <div class="sub">
+            <h3>1) INVOLUTIVAS</h3>
+            <div class="sub">
+                <p>(A')' = A</p>
+            </div>
+            <h3>2) IDEMPOTENCIA</h3>
+            <div class="sub">
+                <p>A ∪ A = A</p>
+                <p>A ∩ A = A</p>
+            </div>
+            <h3>3) CONMUTATIVA</h3>
+            <div class="sub">
+                <p>A ∪ B = B ∪ A</p>
+                <p>A ∩ B = B ∩ A</p>
+            </div>
+            <h3>4) ASOCIATIVA</h3>
+            <div class="sub">
+                <p>(A ∪ B) ∪ C = A ∪ (B ∪ c)</p>
+                <p>(A ∩ B) ∩ C = A ∩ (B ∩ c)</p>
+            </div>
+            <h3>5) DISTRIBUTIVA</h3>
+            <div class="sub">
+                <p>A ∪ (B ∩ C) = (A ∪ B) ∩ (B ∪ C)</p>
+                <p>A ∩ (B U C) = (A ∩ B) U (B ∩ C)</p>
+            </div>
+            <h3>6) DE  MORGAN</h3>
+            <div class="sub">
+                <p>(A ∪ B)' = A' ∩ B'</p>
+                <p>(A ∩ B)' = A' U B'</p>
+            </div>
+            <h3>7) DE LA DIFERENCIA</h3>
+            <div class="sub">
+                <p>A - B = A ∩ B'</p> 
+            </div>
+            <h3>8) DEL COMPLEMENTO</h3>
+            <div class="sub">
+                <p>A U A' = U</p>
+                <p>A ∩ A' = ∅</p>
+            </div>
+            <h3>9) DEL COMPLEMENTO</h3>
+            <div class="sub">
+                <p>A U U = U</p><p>A ∩ U = A</p>
+                <p>A U ∅ = A</p><p>A ∩ ∅ = ∅ </p>
+            </div>
+            <h3>10) ABSORCION</h3>
+            <div class="sub">
+                <P>A U (A ∩ B) = A</P><P>A ∩ (A U B) = A</h4>
+                <P>A U (A' ∩ B) = A U B </P><P>A ∩ (A' U B) = A ∩ B </P>
+            </div>          
+    </div>   
+</body>
+</html>
